@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Compare Totals in Software Update tile vs Tool Communication tile(failed)">
+    <classes>
+      <class name="Scripts.CompareTotalsSoftwareUpdateVSToolCommunication">
+        <methods>
+          <include name="OpenWebsite"/>
+          <include name="CloseBrowser"/>
+          <include name="Login"/>
+          <include name="CompareTotals"/>
+        </methods>
+      </class> <!-- Scripts.CompareTotalsSoftwareUpdateVSToolCommunication -->
+    </classes>
+  </test> <!-- Compare Totals in Software Update tile vs Tool Communication tile(failed) -->
+</suite> <!-- Failed suite [Suite] -->

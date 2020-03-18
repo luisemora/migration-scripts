@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite verbose="1" name="Migration Suite" parallel="none">
+  <test name="Compare Totals in Software Update tile vs Tool Communication tile">
+    <classes>
+      <class name="Scripts.CompareTotalsSoftwareUpdateVSToolCommunication"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
