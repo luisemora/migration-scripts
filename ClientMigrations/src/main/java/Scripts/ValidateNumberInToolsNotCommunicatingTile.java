@@ -32,7 +32,7 @@ public class ValidateNumberInToolsNotCommunicatingTile {
   
   @Test (priority=2)
   public void Login() {
-	  LoginPage.SuperAdminLogIn();
+	  LoginPage.AutomatedLogIn();
 	  LoginPage.ChangeClient(LoginPage.GetClientID());
   }
   

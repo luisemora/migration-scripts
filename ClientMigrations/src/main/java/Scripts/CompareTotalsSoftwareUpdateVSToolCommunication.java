@@ -30,7 +30,7 @@ public class CompareTotalsSoftwareUpdateVSToolCommunication {
   
   @Test (priority=2)
   public void Login() {
-	  LoginPage.Login("luis.mora@gammapartners.com","Lemc2568!"); //LoginPage.Login (username,password) for custom credentials
+	  LoginPage.AutomatedLogIn();
 	  LoginPage.ChangeClient(LoginPage.GetClientID());
   }
   

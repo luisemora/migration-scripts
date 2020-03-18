@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Migration Suite]">
-  <test thread-count="5" name="Compare Totals in Software Update tile vs Tool Communication tile(failed)">
+  <test thread-count="5" name="Drilldown Tools Not Communicating Tile To Equipment Tracking(failed)">
     <classes>
-      <class name="Scripts.CompareTotalsSoftwareUpdateVSToolCommunication">
+      <class name="Scripts.DrilldownToolsNotCommunicatingToEquipmentTracking">
         <methods>
-          <include name="OpenWebsite"/>
-          <include name="CloseBrowser"/>
-          <include name="Login"/>
-          <include name="CompareTotals"/>
+          <include name="afterClass"/>
+          <include name="DrilldownToET"/>
+          <include name="beforeClass"/>
         </methods>
-      </class> <!-- Scripts.CompareTotalsSoftwareUpdateVSToolCommunication -->
+      </class> <!-- Scripts.DrilldownToolsNotCommunicatingToEquipmentTracking -->
     </classes>
-  </test> <!-- Compare Totals in Software Update tile vs Tool Communication tile(failed) -->
+  </test> <!-- Drilldown Tools Not Communicating Tile To Equipment Tracking(failed) -->
 </suite> <!-- Failed suite [Migration Suite] -->
