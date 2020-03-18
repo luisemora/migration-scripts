@@ -1,13 +1,10 @@
 package Scripts;
-
+import pkg.CorporateDashboard; 
+import pkg.LoginPage; 
+import pkg.Main; 
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
-import pkg.CorporateDashboard;
-import pkg.LoginPage;
-import pkg.Main;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
