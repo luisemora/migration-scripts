@@ -24,21 +24,21 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
         <span>All suites</span>
-        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
-          <img src="collapseall.gif" class="collapse-all-icon">
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
           </img> <!-- collapse-all-icon -->
         </a> <!-- collapse-all-link -->
       </div> <!-- navigator-suite-header -->
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-Migration_Suite" class="navigator-link">
-              <span class="suite-name border-passed">Migration Suite</span>
+            <a href="#" class="navigator-link" panel-name="suite-Migration_Suite">
+              <span class="suite-name border-failed">Migration Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,37 +48,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-Migration_Suite" class="navigator-link ">
-                    <span>C:\Users\Luis\Migration\ClientMigrations\TestNG</span>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Migration_Suite">
+                    <span>C:\Users\Luis\git\migration-scripts\ClientMigrations\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-Migration_Suite" class="navigator-link ">
-                    <span class="test-stats">1 test</span>
+                  <a href="#" class="navigator-link " panel-name="testlist-Migration_Suite">
+                    <span class="test-stats">8 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-Migration_Suite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="group-Migration_Suite">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-Migration_Suite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="times-Migration_Suite">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-Migration_Suite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="reporter-Migration_Suite">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-Migration_Suite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Migration_Suite">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-Migration_Suite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="chronological-Migration_Suite">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">29 methods, 1 failed,   28 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Migration_Suite" class="hide-methods failed suite-Migration_Suite"> (hide)</a> <!-- hide-methods failed suite-Migration_Suite -->
+                      <a href="#" panel-name="suite-Migration_Suite" class="show-methods failed suite-Migration_Suite"> (show)</a> <!-- show-methods failed suite-Migration_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Migration_Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Migration_Suite" title="Scripts.DrilldownToolsNotCommunicatingToEquipmentTracking" hash-for-method="DrilldownToET">DrilldownToET</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Migration_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,23 +115,143 @@
                     </span>
                     <div class="method-list-content passed suite-Migration_Suite">
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Migration_Suite" title="Scripts.CompareTotalsSoftwareUpdateVSToolCommunication" class="method navigator-link" hash-for-method="CloseBrowser">CloseBrowser</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Migration_Suite" title="Scripts.CompareTotalsSoftwareUpdateVSToolCommunication" hash-for-method="CloseBrowser">CloseBrowser</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Migration_Suite" title="Scripts.CompareTotalsSoftwareUpdateVSToolCommunication" class="method navigator-link" hash-for-method="CompareTotals">CompareTotals</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Migration_Suite" title="Scripts.DrilldownSoftwareUpdateStatusToSVS" hash-for-method="CloseBrowser">CloseBrowser</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Migration_Suite" title="Scripts.CompareTotalsSoftwareUpdateVSToolCommunication" class="method navigator-link" hash-for-method="Login">Login</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Migration_Suite" title="Scripts.DrilldownToolCommunicationToEquipmentTracking" hash-for-method="CloseBrowser">CloseBrowser</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Migration_Suite" title="Scripts.CompareTotalsSoftwareUpdateVSToolCommunication" class="method navigator-link" hash-for-method="OpenWebsite">OpenWebsite</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Migration_Suite" title="Scripts.DrilldownToolsNotCommunicatingToEquipmentTracking" hash-for-method="CloseBrowser">CloseBrowser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Migration_Suite" title="Scripts.ValidateCountsToolsBySoftwareVersion" hash-for-method="CloseBrowser">CloseBrowser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Migration_Suite" title="Scripts.ValidateCountsToolsOutOfDateByLocation" hash-for-method="CloseBrowser">CloseBrowser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Migration_Suite" title="Scripts.ValidateNumberInToolsNotCommunicatingTile" hash-for-method="CloseBrowser">CloseBrowser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Migration_Suite" title="pkg.CloseWebDriverSession" hash-for-method="CloseWebDriverSession">CloseWebDriverSession</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Migration_Suite" title="Scripts.ValidateCountsToolsOutOfDateByLocation" hash-for-method="CompareCountsTileOnTopVSByLocation">CompareCountsTileOnTopVSByLocation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Migration_Suite" title="Scripts.ValidateCountsToolsBySoftwareVersion" hash-for-method="CompareCountsTileOnTopVSBySoftwareVersion">CompareCountsTileOnTopVSBySoftwareVersion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Migration_Suite" title="Scripts.CompareTotalsSoftwareUpdateVSToolCommunication" hash-for-method="CompareTotals">CompareTotals</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Migration_Suite" title="Scripts.DrilldownToolCommunicationToEquipmentTracking" hash-for-method="DrilldownToET">DrilldownToET</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Migration_Suite" title="Scripts.DrilldownSoftwareUpdateStatusToSVS" hash-for-method="DrilldownToSVS">DrilldownToSVS</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Migration_Suite" title="Scripts.CompareTotalsSoftwareUpdateVSToolCommunication" hash-for-method="Login">Login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Migration_Suite" title="Scripts.DrilldownSoftwareUpdateStatusToSVS" hash-for-method="Login">Login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Migration_Suite" title="Scripts.DrilldownToolCommunicationToEquipmentTracking" hash-for-method="Login">Login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Migration_Suite" title="Scripts.DrilldownToolsNotCommunicatingToEquipmentTracking" hash-for-method="Login">Login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Migration_Suite" title="Scripts.ValidateCountsToolsBySoftwareVersion" hash-for-method="Login">Login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Migration_Suite" title="Scripts.ValidateCountsToolsOutOfDateByLocation" hash-for-method="Login">Login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Migration_Suite" title="Scripts.ValidateNumberInToolsNotCommunicatingTile" hash-for-method="Login">Login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Migration_Suite" title="Scripts.CompareTotalsSoftwareUpdateVSToolCommunication" hash-for-method="OpenWebsite">OpenWebsite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Migration_Suite" title="Scripts.DrilldownSoftwareUpdateStatusToSVS" hash-for-method="OpenWebsite">OpenWebsite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Migration_Suite" title="Scripts.DrilldownToolCommunicationToEquipmentTracking" hash-for-method="OpenWebsite">OpenWebsite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Migration_Suite" title="Scripts.DrilldownToolsNotCommunicatingToEquipmentTracking" hash-for-method="OpenWebsite">OpenWebsite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Migration_Suite" title="Scripts.ValidateCountsToolsBySoftwareVersion" hash-for-method="OpenWebsite">OpenWebsite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Migration_Suite" title="Scripts.ValidateCountsToolsOutOfDateByLocation" hash-for-method="OpenWebsite">OpenWebsite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Migration_Suite" title="Scripts.ValidateNumberInToolsNotCommunicatingTile" hash-for-method="OpenWebsite">OpenWebsite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Migration_Suite" title="Scripts.ValidateNumberInToolsNotCommunicatingTile" hash-for-method="ValidateToolsNotCommunicatingCount">ValidateToolsNotCommunicatingCount</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Migration_Suite -->
@@ -132,6 +266,234 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Migration_Suite" class="panel Migration_Suite">
+          <div class="suite-Migration_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Scripts.DrilldownToolsNotCommunicatingToEquipmentTracking</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DrilldownToET">
+                  </a> <!-- DrilldownToET -->
+                  <span class="method-name">DrilldownToET</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Total Records:74] but found [Total Records:65]
+	at Scripts.DrilldownToolsNotCommunicatingToEquipmentTracking.DrilldownToET(DrilldownToolsNotCommunicatingToEquipmentTracking.java:45)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Migration_Suite-class-failed -->
+          <div class="suite-Migration_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Scripts.DrilldownToolsNotCommunicatingToEquipmentTracking</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CloseBrowser">
+                  </a> <!-- CloseBrowser -->
+                  <span class="method-name">CloseBrowser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login">
+                  </a> <!-- Login -->
+                  <span class="method-name">Login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OpenWebsite">
+                  </a> <!-- OpenWebsite -->
+                  <span class="method-name">OpenWebsite</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Migration_Suite-class-passed -->
+          <div class="suite-Migration_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Scripts.ValidateCountsToolsBySoftwareVersion</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CloseBrowser">
+                  </a> <!-- CloseBrowser -->
+                  <span class="method-name">CloseBrowser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CompareCountsTileOnTopVSBySoftwareVersion">
+                  </a> <!-- CompareCountsTileOnTopVSBySoftwareVersion -->
+                  <span class="method-name">CompareCountsTileOnTopVSBySoftwareVersion</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login">
+                  </a> <!-- Login -->
+                  <span class="method-name">Login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OpenWebsite">
+                  </a> <!-- OpenWebsite -->
+                  <span class="method-name">OpenWebsite</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Migration_Suite-class-passed -->
+          <div class="suite-Migration_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Scripts.DrilldownToolCommunicationToEquipmentTracking</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CloseBrowser">
+                  </a> <!-- CloseBrowser -->
+                  <span class="method-name">CloseBrowser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DrilldownToET">
+                  </a> <!-- DrilldownToET -->
+                  <span class="method-name">DrilldownToET</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login">
+                  </a> <!-- Login -->
+                  <span class="method-name">Login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OpenWebsite">
+                  </a> <!-- OpenWebsite -->
+                  <span class="method-name">OpenWebsite</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Migration_Suite-class-passed -->
+          <div class="suite-Migration_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Scripts.ValidateCountsToolsOutOfDateByLocation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CloseBrowser">
+                  </a> <!-- CloseBrowser -->
+                  <span class="method-name">CloseBrowser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CompareCountsTileOnTopVSByLocation">
+                  </a> <!-- CompareCountsTileOnTopVSByLocation -->
+                  <span class="method-name">CompareCountsTileOnTopVSByLocation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login">
+                  </a> <!-- Login -->
+                  <span class="method-name">Login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OpenWebsite">
+                  </a> <!-- OpenWebsite -->
+                  <span class="method-name">OpenWebsite</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Migration_Suite-class-passed -->
+          <div class="suite-Migration_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Scripts.ValidateNumberInToolsNotCommunicatingTile</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CloseBrowser">
+                  </a> <!-- CloseBrowser -->
+                  <span class="method-name">CloseBrowser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login">
+                  </a> <!-- Login -->
+                  <span class="method-name">Login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OpenWebsite">
+                  </a> <!-- OpenWebsite -->
+                  <span class="method-name">OpenWebsite</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateToolsNotCommunicatingCount">
+                  </a> <!-- ValidateToolsNotCommunicatingCount -->
+                  <span class="method-name">ValidateToolsNotCommunicatingCount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Migration_Suite-class-passed -->
+          <div class="suite-Migration_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Scripts.DrilldownSoftwareUpdateStatusToSVS</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CloseBrowser">
+                  </a> <!-- CloseBrowser -->
+                  <span class="method-name">CloseBrowser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DrilldownToSVS">
+                  </a> <!-- DrilldownToSVS -->
+                  <span class="method-name">DrilldownToSVS</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login">
+                  </a> <!-- Login -->
+                  <span class="method-name">Login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OpenWebsite">
+                  </a> <!-- OpenWebsite -->
+                  <span class="method-name">OpenWebsite</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Migration_Suite-class-passed -->
           <div class="suite-Migration_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -168,10 +530,25 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Migration_Suite-class-passed -->
+          <div class="suite-Migration_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pkg.CloseWebDriverSession</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CloseWebDriverSession">
+                  </a> <!-- CloseWebDriverSession -->
+                  <span class="method-name">CloseWebDriverSession</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Migration_Suite-class-passed -->
         </div> <!-- panel Migration_Suite -->
         <div panel-name="test-xml-Migration_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Luis\Migration\ClientMigrations\TestNG</span>
+            <span class="header-content">C:\Users\Luis\git\migration-scripts\ClientMigrations\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -183,6 +560,41 @@
       &lt;class name=&quot;Scripts.CompareTotalsSoftwareUpdateVSToolCommunication&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Compare Totals in Software Update tile vs Tool Communication tile --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Drilldown Software Update Status tile to SVS report&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Scripts.DrilldownSoftwareUpdateStatusToSVS&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Drilldown Software Update Status tile to SVS report --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Drilldown Tool Communication To Equipment Tracking&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Scripts.DrilldownToolCommunicationToEquipmentTracking&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Drilldown Tool Communication To Equipment Tracking --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Drilldown Tools Not Communicating Tile To Equipment Tracking&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Scripts.DrilldownToolsNotCommunicatingToEquipmentTracking&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Drilldown Tools Not Communicating Tile To Equipment Tracking --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Compare Total Counts from Software Update Tile vs By Software Version Tile&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Scripts.ValidateCountsToolsBySoftwareVersion&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Compare Total Counts from Software Update Tile vs By Software Version Tile --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Validate Counts In Tools Out Of Date By Location Tile&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Scripts.ValidateCountsToolsOutOfDateByLocation&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Validate Counts In Tools Out Of Date By Location Tile --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Validate Tools Not Communicating Tile&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Scripts.ValidateNumberInToolsNotCommunicatingTile&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Validate Tools Not Communicating Tile --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Ignore - Closing WebDriver&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;pkg.CloseWebDriverSession&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Ignore - Closing WebDriver --&gt;
 &lt;/suite&gt; &lt;!-- Migration Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -195,6 +607,27 @@
             <ul>
               <li>
                 <span class="test-name">Compare Totals in Software Update tile vs Tool Communication tile (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Drilldown Software Update Status tile to SVS report (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Drilldown Tool Communication To Equipment Tracking (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Drilldown Tools Not Communicating Tile To Equipment Tracking (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Compare Total Counts from Software Update Tile vs By Software Version Tile (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Validate Counts In Tools Out Of Date By Location Tile (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Validate Tools Not Communicating Tile (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Ignore - Closing WebDriver (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -220,28 +653,128 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(29);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'OpenWebsite')
 data.setCell(0, 2, 'Scripts.CompareTotalsSoftwareUpdateVSToolCommunication')
-data.setCell(0, 3, 11438);
+data.setCell(0, 3, 11820);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'Login')
 data.setCell(1, 2, 'Scripts.CompareTotalsSoftwareUpdateVSToolCommunication')
-data.setCell(1, 3, 9901);
+data.setCell(1, 3, 10171);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'CompareTotals')
-data.setCell(2, 2, 'Scripts.CompareTotalsSoftwareUpdateVSToolCommunication')
-data.setCell(2, 3, 4110);
+data.setCell(2, 1, 'DrilldownToSVS')
+data.setCell(2, 2, 'Scripts.DrilldownSoftwareUpdateStatusToSVS')
+data.setCell(2, 3, 9648);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'CloseBrowser')
-data.setCell(3, 2, 'Scripts.CompareTotalsSoftwareUpdateVSToolCommunication')
-data.setCell(3, 3, 1993);
+data.setCell(3, 1, 'DrilldownToET')
+data.setCell(3, 2, 'Scripts.DrilldownToolCommunicationToEquipmentTracking')
+data.setCell(3, 3, 8264);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'DrilldownToET')
+data.setCell(4, 2, 'Scripts.DrilldownToolsNotCommunicatingToEquipmentTracking')
+data.setCell(4, 3, 7439);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'ValidateToolsNotCommunicatingCount')
+data.setCell(5, 2, 'Scripts.ValidateNumberInToolsNotCommunicatingTile')
+data.setCell(5, 3, 6146);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Login')
+data.setCell(6, 2, 'Scripts.DrilldownSoftwareUpdateStatusToSVS')
+data.setCell(6, 3, 6025);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Login')
+data.setCell(7, 2, 'Scripts.DrilldownToolCommunicationToEquipmentTracking')
+data.setCell(7, 3, 6004);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Login')
+data.setCell(8, 2, 'Scripts.DrilldownToolsNotCommunicatingToEquipmentTracking')
+data.setCell(8, 3, 5832);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Login')
+data.setCell(9, 2, 'Scripts.ValidateCountsToolsOutOfDateByLocation')
+data.setCell(9, 3, 5574);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Login')
+data.setCell(10, 2, 'Scripts.ValidateCountsToolsBySoftwareVersion')
+data.setCell(10, 3, 5565);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Login')
+data.setCell(11, 2, 'Scripts.ValidateNumberInToolsNotCommunicatingTile')
+data.setCell(11, 3, 5036);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'CompareCountsTileOnTopVSBySoftwareVersion')
+data.setCell(12, 2, 'Scripts.ValidateCountsToolsBySoftwareVersion')
+data.setCell(12, 3, 4520);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'CompareCountsTileOnTopVSByLocation')
+data.setCell(13, 2, 'Scripts.ValidateCountsToolsOutOfDateByLocation')
+data.setCell(13, 3, 4332);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'CloseBrowser')
+data.setCell(14, 2, 'Scripts.DrilldownToolCommunicationToEquipmentTracking')
+data.setCell(14, 3, 4146);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'CompareTotals')
+data.setCell(15, 2, 'Scripts.CompareTotalsSoftwareUpdateVSToolCommunication')
+data.setCell(15, 3, 4127);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'CloseBrowser')
+data.setCell(16, 2, 'Scripts.DrilldownToolsNotCommunicatingToEquipmentTracking')
+data.setCell(16, 3, 1545);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'CloseBrowser')
+data.setCell(17, 2, 'Scripts.ValidateNumberInToolsNotCommunicatingTile')
+data.setCell(17, 3, 1525);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'CloseBrowser')
+data.setCell(18, 2, 'Scripts.DrilldownSoftwareUpdateStatusToSVS')
+data.setCell(18, 3, 1322);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'CloseBrowser')
+data.setCell(19, 2, 'Scripts.CompareTotalsSoftwareUpdateVSToolCommunication')
+data.setCell(19, 3, 1304);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'CloseBrowser')
+data.setCell(20, 2, 'Scripts.ValidateCountsToolsOutOfDateByLocation')
+data.setCell(20, 3, 1210);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'CloseBrowser')
+data.setCell(21, 2, 'Scripts.ValidateCountsToolsBySoftwareVersion')
+data.setCell(21, 3, 1202);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'OpenWebsite')
+data.setCell(22, 2, 'Scripts.DrilldownToolCommunicationToEquipmentTracking')
+data.setCell(22, 3, 869);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'OpenWebsite')
+data.setCell(23, 2, 'Scripts.ValidateCountsToolsBySoftwareVersion')
+data.setCell(23, 3, 829);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'OpenWebsite')
+data.setCell(24, 2, 'Scripts.DrilldownToolsNotCommunicatingToEquipmentTracking')
+data.setCell(24, 3, 799);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'OpenWebsite')
+data.setCell(25, 2, 'Scripts.ValidateCountsToolsOutOfDateByLocation')
+data.setCell(25, 3, 782);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'CloseWebDriverSession')
+data.setCell(26, 2, 'pkg.CloseWebDriverSession')
+data.setCell(26, 3, 779);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'OpenWebsite')
+data.setCell(27, 2, 'Scripts.ValidateNumberInToolsNotCommunicatingTile')
+data.setCell(27, 3, 778);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'OpenWebsite')
+data.setCell(28, 2, 'Scripts.DrilldownSoftwareUpdateStatusToSVS')
+data.setCell(28, 3, 771);
 window.suiteTableData['Migration_Suite']= { tableData: data, tableDiv: 'times-div-Migration_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 27 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Migration_Suite">
               </div> <!-- times-div-Migration_Suite -->
             </div> <!-- times-div -->
@@ -274,24 +807,195 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">OpenWebsite</span>
-                <span class="method-start">6214 ms</span>
+                <span class="method-start">6625 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Login</span>
-                <span class="method-start">17656 ms</span>
+                <span class="method-start">18449 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">CompareTotals</span>
-                <span class="method-start">27560 ms</span>
+                <span class="method-start">28622 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">CloseBrowser</span>
-                <span class="method-start">31671 ms</span>
+                <span class="method-start">32751 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">33665 ms</span>
+                <span class="method-start">34057 ms</span>
               </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Scripts.DrilldownSoftwareUpdateStatusToSVS</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">34818 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">OpenWebsite</span>
+                <span class="method-start">40214 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Login</span>
+                <span class="method-start">40987 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DrilldownToSVS</span>
+                <span class="method-start">47017 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">56666 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">57989 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Scripts.DrilldownToolCommunicationToEquipmentTracking</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">58813 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">OpenWebsite</span>
+                <span class="method-start">64213 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Login</span>
+                <span class="method-start">65083 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DrilldownToET</span>
+                <span class="method-start">71088 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">79354 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">83501 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Scripts.DrilldownToolsNotCommunicatingToEquipmentTracking</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">84316 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">OpenWebsite</span>
+                <span class="method-start">89716 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Login</span>
+                <span class="method-start">90517 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">DrilldownToET</span>
+                <span class="method-start">96350 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">103791 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">105337 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Scripts.ValidateCountsToolsBySoftwareVersion</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">106330 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">OpenWebsite</span>
+                <span class="method-start">111661 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Login</span>
+                <span class="method-start">112492 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CompareCountsTileOnTopVSBySoftwareVersion</span>
+                <span class="method-start">118058 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">122579 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">123782 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Scripts.ValidateCountsToolsOutOfDateByLocation</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">124653 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">OpenWebsite</span>
+                <span class="method-start">130075 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Login</span>
+                <span class="method-start">130859 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CompareCountsTileOnTopVSByLocation</span>
+                <span class="method-start">136434 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">140768 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">141979 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Scripts.ValidateNumberInToolsNotCommunicatingTile</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">142858 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">OpenWebsite</span>
+                <span class="method-start">148223 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Login</span>
+                <span class="method-start">149003 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidateToolsNotCommunicatingCount</span>
+                <span class="method-start">154040 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">160188 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">161714 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pkg.CloseWebDriverSession</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">CloseWebDriverSession</span>
+                <span class="method-start">162631 ms</span>
+              </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

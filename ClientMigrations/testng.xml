@@ -1,8 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite verbose="1" name="Migration Suite" parallel="none">
+
   <test name="Compare Totals in Software Update tile vs Tool Communication tile">
     <classes>
       <class name="Scripts.CompareTotalsSoftwareUpdateVSToolCommunication"/>
+    </classes>
+  </test> <!-- Test -->
+  
+      <test name="Drilldown Software Update Status tile to SVS report">
+    <classes>
+      <class name="Scripts.DrilldownSoftwareUpdateStatusToSVS"/>
+    </classes>
+  </test> <!-- Test -->
+  
+        <test name="Drilldown Tool Communication To Equipment Tracking">
+    <classes>
+      <class name="Scripts.DrilldownToolCommunicationToEquipmentTracking"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Drilldown Tools Not Communicating Tile To Equipment Tracking">
+    <classes>
+      <class name="Scripts.DrilldownToolsNotCommunicatingToEquipmentTracking"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Compare Total Counts from Software Update Tile vs By Software Version Tile">
+    <classes>
+      <class name="Scripts.ValidateCountsToolsBySoftwareVersion"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test name="Validate Counts In Tools Out Of Date By Location Tile">
+    <classes>
+      <class name="Scripts.ValidateCountsToolsOutOfDateByLocation"/>
+    </classes>
+  </test> <!-- Test -->
+
+  <test name="Validate Tools Not Communicating Tile">
+    <classes>
+      <class name="Scripts.ValidateNumberInToolsNotCommunicatingTile"/>
+    </classes>
+  </test> <!-- Test -->
+ 
+  
+
+  
+
+  
+
+  
+    <test name="Ignore - Closing WebDriver">
+    <classes>
+      <class name="pkg.CloseWebDriverSession"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
