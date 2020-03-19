@@ -33,7 +33,7 @@ public class DrilldownSoftwareUpdateStatusToSVS {
 	  
 	  @Test (priority=2)
 	  public void Login() {
-		  LoginPage.AutomatedLogIn();
+		  LoginPage.SuperAdminLogIn();
 		  LoginPage.ChangeClient(LoginPage.GetClientID());
 	  }
 	  

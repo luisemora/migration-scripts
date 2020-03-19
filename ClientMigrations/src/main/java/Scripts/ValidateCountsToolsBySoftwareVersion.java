@@ -32,7 +32,7 @@ public class ValidateCountsToolsBySoftwareVersion {
   
   @Test (priority=2)
   public void Login() {
-	  LoginPage.AutomatedLogIn();
+	  LoginPage.SuperAdminLogIn();
 	  LoginPage.ChangeClient(LoginPage.GetClientID());
   }
   

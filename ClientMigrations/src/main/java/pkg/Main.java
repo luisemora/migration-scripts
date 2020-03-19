@@ -25,7 +25,7 @@ public class Main {
 	}
 	
 	public static String Environment() {
-		String URL = "https://bmis2.midtronics.com/";
+		String URL = "https://mdx-uat-bmis2.azurewebsites.net/";
 		return URL;
 	  }
 	
